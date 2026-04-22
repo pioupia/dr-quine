@@ -3,9 +3,12 @@
 !Colleen
 
 Colleen/*
-!Colleen/Makefile
-!Colleen/srcs
+!Colleen/C
+!Colleen/ASM
 
-Colleen/srcs/*
-!Colleen/srcs/main.c
-!Colleen/srcs/main.s
+!Colleen/*/Makefile
+!Colleen/*/srcs
+
+Colleen/*/srcs/*
+!Colleen/C/srcs/main.c
+!Colleen/ASM/srcs/main.s
