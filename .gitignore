@@ -1,0 +1,11 @@
+*
+!.gitignore
+!Colleen
+
+Colleen/*
+!Colleen/Makefile
+!Colleen/srcs
+
+Colleen/srcs/*
+!Colleen/srcs/main.c
+!Colleen/srcs/main.s
