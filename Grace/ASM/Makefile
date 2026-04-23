@@ -3,15 +3,16 @@ NAME	=	Grace
 SRC_DIR	=	srcs/
 OBJ_DIR	=	dist/
 
-SRCS	=	Grace.c
-OBJS	=	$(SRCS:%.c=dist/%.o)
+SRCS	=	Grace.s
+OBJS	=	$(SRCS:%.s=$(OBJ_DIR)%.o)
 
-CC		=	clang
+NASM	=	nasm
+NFLAGS	=	-g -f elf64
 CFLAGS	=	-Wall -Werror -Wextra
 
-$(OBJ_DIR)%.o: $(SRC_DIR)%.c
+$(OBJ_DIR)%.o: $(SRC_DIR)%.s
 	@mkdir -p $(OBJ_DIR)
-	$(CC) $(CFLAGS) -c -o $@ $<
+	$(NASM) $(NFLAGS) $< -o $@
 
 all: $(NAME)
 
@@ -20,7 +21,7 @@ $(NAME): $(OBJS)
 
 test: $(NAME)
 	./$(NAME)
-	diff Grace_kid.c $(SRC_DIR)$(SRCS)
+	diff Grace_kid.s $(SRC_DIR)$(SRCS)
 
 clean:
 	rm -f $(OBJS)
