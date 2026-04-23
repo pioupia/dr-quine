@@ -19,9 +19,10 @@ Grace/*
 !Grace/C
 !Grace/ASM
 
+Grace/*/*
 !Grace/*/Makefile
 !Grace/*/srcs
 
 Grace/*/srcs/*
-!Grace/C/srcs/main.c
-!Grace/ASM/srcs/main.s
+!Grace/C/srcs/Grace.c
+!Grace/ASM/srcs/Grace.s
