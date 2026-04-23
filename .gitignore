@@ -1,14 +1,27 @@
 *
 !.gitignore
 !Colleen
+!Grace
 
 Colleen/*
 !Colleen/C
 !Colleen/ASM
 
+Colleen/*/*
 !Colleen/*/Makefile
 !Colleen/*/srcs
 
 Colleen/*/srcs/*
-!Colleen/C/srcs/main.c
-!Colleen/ASM/srcs/main.s
+!Colleen/C/srcs/Calleen.c
+!Colleen/ASM/srcs/Calleen.s
+
+Grace/*
+!Grace/C
+!Grace/ASM
+
+!Grace/*/Makefile
+!Grace/*/srcs
+
+Grace/*/srcs/*
+!Grace/C/srcs/main.c
+!Grace/ASM/srcs/main.s

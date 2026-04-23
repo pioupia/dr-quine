@@ -3,7 +3,7 @@ NAME	=	Colleen
 SRC_DIR	=	srcs/
 OBJ_DIR	=	dist/
 
-SRCS	=	main.c
+SRCS	=	Calleen.c
 OBJS	=	$(SRCS:%.c=dist/%.o)
 
 CC		=	cc
@@ -20,7 +20,7 @@ $(NAME): $(OBJS)
 
 test: $(NAME)
 	./$(NAME) > output
-	diff output $(SRC_DIR)main.c
+	diff output $(SRC_DIR)$(SRCS)
 	rm output
 
 clean:
