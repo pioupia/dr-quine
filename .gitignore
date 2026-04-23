@@ -2,6 +2,7 @@
 !.gitignore
 !Colleen
 !Grace
+!Sully
 
 Colleen/*
 !Colleen/C
@@ -26,3 +27,15 @@ Grace/*/*
 Grace/*/srcs/*
 !Grace/C/srcs/Grace.c
 !Grace/ASM/srcs/Grace.s
+
+Sully/*
+!Sully/C
+!Sully/ASM
+
+Sully/*/*
+!Sully/*/Makefile
+!Sully/*/srcs
+
+Sully/*/srcs/*
+!Sully/C/srcs/Sully.c
+!Sully/ASM/srcs/Sully.s

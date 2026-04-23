@@ -6,7 +6,7 @@ OBJ_DIR	=	dist/
 SRCS	=	Calleen.c
 OBJS	=	$(SRCS:%.c=dist/%.o)
 
-CC		=	cc
+CC		=	clang
 CFLAGS	=	-Wall -Werror -Wextra
 
 $(OBJ_DIR)%.o: $(SRC_DIR)%.c
