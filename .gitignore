@@ -7,6 +7,7 @@
 Colleen/*
 !Colleen/C
 !Colleen/ASM
+!Colleen/Zig
 
 Colleen/*/*
 !Colleen/*/Makefile
@@ -15,6 +16,7 @@ Colleen/*/*
 Colleen/*/srcs/*
 !Colleen/C/srcs/Calleen.c
 !Colleen/ASM/srcs/Calleen.s
+!Colleen/Zig/srcs/Calleen.zig
 
 Grace/*
 !Grace/C
