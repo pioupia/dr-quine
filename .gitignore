@@ -33,6 +33,7 @@ Grace/*/srcs/*
 Sully/*
 !Sully/C
 !Sully/ASM
+!Sully/Zig
 
 Sully/*/*
 !Sully/*/Makefile
@@ -41,3 +42,4 @@ Sully/*/*
 Sully/*/srcs/*
 !Sully/C/srcs/Sully.c
 !Sully/ASM/srcs/Sully.s
+!Sully/Zig/srcs/Sully.zig
