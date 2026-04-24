@@ -21,6 +21,7 @@ Colleen/*/srcs/*
 Grace/*
 !Grace/C
 !Grace/ASM
+!Grace/Zig
 
 Grace/*/*
 !Grace/*/Makefile
@@ -29,6 +30,7 @@ Grace/*/*
 Grace/*/srcs/*
 !Grace/C/srcs/Grace.c
 !Grace/ASM/srcs/Grace.s
+!Grace/Zig/srcs/Grace.zig
 
 Sully/*
 !Sully/C
